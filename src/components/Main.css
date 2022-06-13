@@ -58,6 +58,11 @@
     background: #eee;
 }
 
+.tarefas li div {
+    display: flex;
+    align-items: center;
+}
+
 .edit {
     margin-right: 5px;
     color: #51c5de
@@ -78,4 +83,13 @@
     cursor: pointer;
     margin-right: 5px;
     color: #e03b53
+}
+
+.errors {
+    display: none;
+    font-family: sans-serif;
+    position: relative;
+    left: 25px;
+    top: 3px;
+    color: red
 }
